@@ -33,8 +33,8 @@ int main(){
     cout << " La variable b vale: "<< b << endl; */
 
     //OPERADOR DE MÓDULO O RESIDUO %
-
-    int num = 0;
+    //Hacer un ejercicio usando módulo que averigüe si un número ingresado es primo
+   /*  int num = 0;
 
     cout << "Ingrese un número entero positivo por teclado: ";
     cin >> num;
@@ -52,5 +52,33 @@ int main(){
     } else {
         cout << "El número "<< num << " No es primo " <<endl;
     }
+ */
 
+    //  TRABAJAR CON OPERACIONES Y CONVERSIONES EN C++
+
+    // auto a = 3; recordar que cuando no sabemos precisar el tipo de dato podemos usar auto que de acuerdo al contenido que le pongamos a la variable c++ lo reconocerá 
+
+    /* int a = 3;
+
+    float b = 4.0f;
+
+    double c = 8.0;
+
+    auto resultado = a + b;
+
+    cout << typeid(resultado).name();  //Esto no indicará de que tipo de datos es la expresión I-entero f-float d-double */
+
+    //EJEMPLO CALCULANDO LA MEDIA ARITMÉTICA
+
+    int a = 10;
+
+    double b = 12;
+
+    int c = 30;
+
+    double  media = (a+b+c)/3;
+
+    cout <<"La media aritmética de los 3 valores es:  "<< media << endl;
+
+    cout << "El tipo de dato de la variable media es: "<< typeid(media).name();
 }
