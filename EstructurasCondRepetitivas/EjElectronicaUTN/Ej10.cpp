@@ -208,3 +208,82 @@ using namespace std;
 
    cout <<"\n\nEl precio final del automovil es : " <<precioAuto <<"\n\n"<< endl;  
 } */
+
+//USO ENUMERATIVOS 
+int main(){
+   int color;
+   int tapizado;
+
+   int precioAuto = 0;
+
+   enum COLOR {Negro, Rojo, Blanco, Azul};
+   enum TAPIZADO {Vinilo, Cuero, Tela};
+    
+   cout << "\n\nIngrese EL NRO. del color del automovil: 0-NEGRO, 1-ROJO, 2-BLANCO, 3-AZUL: ";
+   cin >> color;
+
+   cout << "\nIngrese EL NRO. del tapizado del automovil: 0-VINILO, 1-CUERO, 2-TELA: ";
+   cin >> tapizado;
+
+   switch (color){
+      case 0:
+         {
+            if (tapizado == 0){
+               precioAuto = 250 + 150;
+            }else if(tapizado == 1){
+               precioAuto = 250 + 750;
+            }else if(tapizado == 2){
+             precioAuto = 250 + 200;
+            }else{
+               cout <<"ERROR"<<endl;
+            }
+            break;
+         }
+      case 1:
+         {
+            if (tapizado == 0){
+               precioAuto = 200 + 150;
+            }else if(tapizado == 1){
+               precioAuto = 200 + 750;
+            }else if(tapizado == 2){
+               precioAuto = 200 + 200;
+            }else{
+               cout <<"ERROR"<<endl;
+            }
+            break;
+         }
+      case 2:
+         {
+            if (tapizado == 0){
+               precioAuto = 180 + 150;
+            }else if(tapizado == 1){
+               precioAuto = 180 + 750;
+            }else if(tapizado == 2){
+               precioAuto = 180 + 200;
+            }else{
+               cout <<"ERROR"<<endl;
+            }
+            break;
+         }
+      case 3:
+         {
+            if (tapizado == 0){
+               precioAuto = 190 + 150;
+            }else if(tapizado == 1){
+               precioAuto = 190 + 750;
+            }else if(tapizado == 2){
+               precioAuto = 190 + 200;
+            }else{
+               cout <<"ERROR"<<endl;
+            }
+            break;
+         } 
+      default:
+      {
+         cout <<"ERROR"<<endl;
+         break;
+      }
+   }
+
+   cout <<"\n\nEl precio final del automovil es : " << precioAuto <<" pesos\n\n"<< endl;
+}
