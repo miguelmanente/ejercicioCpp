@@ -50,7 +50,7 @@ using namespace std;
 } */
 
 //EJERCICIO REALIZADO CON SWITCH
-/* int main(){
+int main(){
    int color;
    int tapizado;
 
@@ -58,102 +58,89 @@ using namespace std;
 
    cout << "\n\nIngrese EL NRO. del color del automovil: 1-NEGRO, 2-ROJO, 3-BLANCO, 4-AZUL:";
    cin >> color;
-
+   
    cout << "\nIngrese EL NRO. del tapizado del automovil: 1-VINILO, 2-CUERO, 3-TELA: ";
    cin >> tapizado;
 
    switch (color){
+     
       case 1:
-      {
+
          switch (tapizado){
             case 1:
-            {
                precioAuto = 250 + 150;
                break;
-            }
             case 2:
-            {
                precioAuto = 250 + 750;
                break;
-            }
             case 3:
-            {
                precioAuto = 250 + 200;
                break;
-            }
+         default:
+            cout << "Opción de tapizado incorrecta";
+            break;
          }
-         break;
-      }
+      break;
+   
       case 2:
-      {
          switch (tapizado){
             case 1:
-            {
                precioAuto = 200 + 150;
                break;
-            }
             case 2:
-            {
                precioAuto = 200 + 750;
                break;
-            }
             case 3:
-            {
                precioAuto = 200 + 200;
                break;
-            }
+         default:
+            cout << "Opción de tapizado incorrecta";
+            break;
          }
-         break;
-      }
+      break;
+
       case 3:
-      {
+  
          switch (tapizado){
             case 1:
-            {
                precioAuto = 180 + 150;
                break;
-            }
             case 2:
-            {
                precioAuto = 180 + 750;
                break;
-            }
             case 3:
-            {
                precioAuto = 180 + 200;
                break;
-            }
-         }
-         break;
-      }
-      case 4:
-      {
-         switch (tapizado){
-            case 1:
-            {
-               precioAuto = 190 + 150;
-               break;
-            }
-            case 2:
-            {
-               precioAuto = 190 + 750;
-               break;
-            }
-            case 3:
-            {
-               precioAuto = 190 + 200;
-               break;
-            }
-         }
          default:
-            cout << "ERROR"<<endl;
+            cout << "Opción de tapizado incorrecta";
             break;
       }
+      break;
+
+      case 4:
+   
+         switch (tapizado){
+            case 1:
+               precioAuto = 190 + 150;
+               break;
+            case 2:
+               precioAuto = 190 + 750;
+               break;
+            case 3:
+               precioAuto = 190 + 200;
+               break;
+         default:
+            cout << "Opción de tapizado incorrecta";
+            break;
+      }
+      default:
+         cout << "Opción del color elegido es incorrecta";
+         break;
    }
   
    cout <<"\n\nEl precio final del automovil es : " <<precioAuto <<"\n\n"<< endl;
 }
- */
+ 
 
 
 //EJERCICIO REALIZADO CON IF ANIDADO
@@ -210,7 +197,7 @@ using namespace std;
 } */
 
 //USO ENUMERATIVOS 
-int main(){
+/* int main(){
    int color;
    int tapizado;
 
@@ -286,4 +273,4 @@ int main(){
    }
 
    cout <<"\n\nEl precio final del automovil es : " << precioAuto <<" pesos\n\n"<< endl;
-}
+} */
