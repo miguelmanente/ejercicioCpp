@@ -63,9 +63,7 @@ int main(){
    cin >> tapizado;
 
    switch (color){
-     
       case 1:
-
          switch (tapizado){
             case 1:
                precioAuto = 250 + 150;
@@ -100,8 +98,7 @@ int main(){
       break;
 
       case 3:
-  
-         switch (tapizado){
+          switch (tapizado){
             case 1:
                precioAuto = 180 + 150;
                break;
@@ -118,7 +115,6 @@ int main(){
       break;
 
       case 4:
-   
          switch (tapizado){
             case 1:
                precioAuto = 190 + 150;
