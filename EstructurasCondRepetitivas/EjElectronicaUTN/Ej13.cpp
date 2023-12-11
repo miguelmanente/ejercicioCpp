@@ -25,7 +25,7 @@ int main(){
 void tablaMultiplo(int n, int m){
     cout << " Tabla de multiplicar del "<<n<< endl;
 
-    for(int i = 0; i <= m; i++){
+    for(int i = 1; i <= m; i++){
         cout << i << " x " << n << " = " <<i*n<<endl;
     }
 }
