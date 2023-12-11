@@ -1,3 +1,6 @@
+/* EJERCICIO 15:
+    Ingresar un número y exhibir su factorial*/
+    
 #include<iostream>
 using namespace std;
 
